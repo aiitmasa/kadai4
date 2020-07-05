@@ -9,6 +9,7 @@
 # 　　a >= b →　iにaを代入jにbを代入|| iにb,jにa
 #            → i%j → 余り0 → jが最大公約数
 #                  → 余りあり → iにjを代入、jに余りを代入
+#     余りが0になるまで繰り返し処理
 
 if [ $# -ne 2 ]; then
 	echo "input 2 argments" 1>&2
